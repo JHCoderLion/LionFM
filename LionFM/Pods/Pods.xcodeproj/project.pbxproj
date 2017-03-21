@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C7F0ABD2BEC94C043667CD52486EDE /* CALayer+JHExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1A5B8F6E0B25C2E20B4727ADCEFC7 /* CALayer+JHExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D7F3EF5AC83B724B9B6BFE75F98D51C /* tabbar_np_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3139E704EE283C3ED91B0DEAA8BD9BED /* tabbar_np_loop@2x.png */; };
+		1D0830B6109894721ECB454E5AA35330 /* MainModuleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B82765D46D6385DDA32EFDFC90ACF98 /* MainModuleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EF136C977BE0C0F5F35AABEB2E0A232 /* JHMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2BF97EC8AA1258686C1889B431C953 /* JHMiddleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2166C48FCE0E998CF6AF531930C1A18E /* tabbar_np_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1674861AAE0069CEFAE3815AF3A2BEA /* tabbar_np_normal@2x.png */; };
+		24B454F3FA32C3126A68801031C5785E /* tabbar_np_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B9145E40C649D94FE267C558616E4 /* tabbar_np_shadow@2x.png */; };
+		24C743EE37752F4E9B08D3DE2BAC96AB /* tabbar_np_playnon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A0194FC0D9DE9EB550110BD8D6F77F /* tabbar_np_playnon@2x.png */; };
+		299B958C59336AEDD52DBD6BBC74C080 /* LionFMMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9277EAE82AAEF83BFDCB057563A8F3AD /* LionFMMain-dummy.m */; };
+		2FE94A7BDC4B6BEC5A2B4430DACBDB8A /* tabbar_np_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1427E429A0D0B39448E2E8756DD23F2C /* tabbar_np_play@2x.png */; };
+		48D76DC6FDBB82552247BC3042D61104 /* JHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B8396113AC01ED17F2D35B0C4A8C30 /* JHTabBarController.m */; };
+		4BCCC4835948546749A8F9F43A236770 /* MainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C81E4470A161472A1B3C9E356A047C2 /* MainModuleAPI.m */; };
+		521456A5E70359E4AFE382B284338270 /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2099186B059EB4DEAA2DFCD195B22C63 /* tabbar_bg@2x.png */; };
+		555C390C76DA426F9EAF377F8EC9FAC9 /* JHNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A8C21FDC038B8D129C0D5C90BEF45B /* JHNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5748663A2CD0EDAC8B241B2293B259E7 /* Pods-LionFM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD72417D19906A2C31405868673CD91 /* Pods-LionFM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DF0C0C7EC8E16C8696F1DF275FB412A /* JHTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3732A7A54B6E647FAD21677FEE9C2DD6 /* JHTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		696A760E3E577572AF110DF5C47B217D /* JHNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D60DAFA4B29AD23ABF783ECD512D88A /* JHNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F443D8537B5A5C8D1DA2F64FEFC4AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5C7E7BD2D81132C2D7116D057B52D7 /* Foundation.framework */; };
+		78291A494E7D96F6C493104CF565300E /* CALayer+JHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B187E935B57DB2365C884699DB99 /* CALayer+JHExtension.m */; };
+		8170012BF677CEE6382477939FA152ED /* LionFMMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCD20CAE21BE45A19A1B31875B7062E /* LionFMMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A838C1F95F4A79C1AC7986A365F43B8 /* LionFMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BE3B0266F4E245420CBB1DF48C116C /* LionFMBase.framework */; };
+		9819398C1A5D518A423CC290E49256DA /* UIImage+JHExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF9F808D561A41AE4A6F2F378130058 /* UIImage+JHExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98A9FA6A15F7E5C49FDE818F281286AF /* UIView+JHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E9D2C7735DC68B350CAA39880D9E3 /* UIView+JHExtension.m */; };
+		A182C152A4DDC7A54D3E3D49FF2A250F /* LionFMMain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96A0DA7E62ADE3F5FE02E39289C138DF /* LionFMMain.bundle */; };
+		A20FDA2A9597197B42DFB343534BCC85 /* LionFMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A30F00AFB7E64F8145B2BED602FC261A /* LionFMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BC0576BD77D6C4390E6F16E661CCB2 /* tabbar_np_playshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5A04E7A46125B2F2C7FA1CD0380DF /* tabbar_np_playshadow@2x.png */; };
+		BB1F02B2958E48AA37FF6E8454C31630 /* UIImage+JHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABF305FD7C95B255901A42F3C91973 /* UIImage+JHExtension.m */; };
+		BDE1CC99F5F882CC6FC5AF128BAB0B05 /* JHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D09EA454F2307D9007F1DA169A933E /* JHTabBar.m */; };
+		C3229C8282E8B638B2243BAF2599CB8C /* JHMiddleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F975874D0154A9C3855BD141EACAFAB0 /* JHMiddleView.xib */; };
+		C43D43A22360ADC0D6DBE703A2595841 /* JHNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 42502421ED418F6161FA5C1F01CF7FA1 /* JHNavBar.m */; };
+		CA5ED26EEB0BF79B07379D89B262B8C0 /* Pods-LionFM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 694DD1809437F6CB2C677495F3F33A09 /* Pods-LionFM-dummy.m */; };
+		D7F06DF44A3841DB927C4072A6474F2C /* JHTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F497ED6DE94EB9E0AC279E2D97A9B9D5 /* JHTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAE9AC6E52EFE33C1228016E2039FC76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5C7E7BD2D81132C2D7116D057B52D7 /* Foundation.framework */; };
+		DCA37428467F5F4F2546E0CE7D0D8C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5C7E7BD2D81132C2D7116D057B52D7 /* Foundation.framework */; };
+		E3A6431F7D99B141ED35EF5FB696F57A /* zxy_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3249ACFE2AA798B4E4B242E01356765A /* zxy_icon@2x.png */; };
+		E8C32AAEAAB78BCCA35F8775FE51D6F3 /* JHMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C819A8E9F144B91D8FB4E15A94308A1 /* JHMiddleView.m */; };
+		EAE10445D3C22D2F296B75F971A2EDDE /* UIView+JHExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F670EA85632B99F4C1136B310A851EB /* UIView+JHExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F306BD2E7DEB22109CFC2D5C41803C4E /* LionFMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48225C53B61F41C7472B1A5F4EC50603 /* LionFMBase-dummy.m */; };
+		FBDFBF8AA1C58340D705B3C72C278190 /* JHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9688ABC0C4DF38E4D1BC053534C13088 /* JHNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D9040E475F5460C767403913DB6E2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9752C362D6DB1B0D78326C74AF866C7;
+			remoteInfo = LionFMBase;
+		};
+		3268CCB01D55DDCAD3898E5CD49E1B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F4ED750B1F7AE0126AA25983BF0054;
+			remoteInfo = "LionFMMain-LionFMMain";
+		};
+		65657D9FF05DC3B06B5A34E8B6C867A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9752C362D6DB1B0D78326C74AF866C7;
+			remoteInfo = LionFMBase;
+		};
+		D2C9ED8A2DBD24B78E5E0152B8935878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2E002B30A8ECB996E866517FF233D2;
+			remoteInfo = LionFMMain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BE3B0266F4E245420CBB1DF48C116C /* LionFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08777BBC1692695D0D35EF930AE5B6FE /* Pods-LionFM-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionFM-resources.sh"; sourceTree = "<group>"; };
+		0B82765D46D6385DDA32EFDFC90ACF98 /* MainModuleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MainModuleAPI.h; path = LionFMMain/Classes/MainModule/PublicAPI/MainModuleAPI.h; sourceTree = "<group>"; };
+		0D4495D8491FB910F74ADB015E1DA1CF /* Pods-LionFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionFM.release.xcconfig"; sourceTree = "<group>"; };
+		1427E429A0D0B39448E2E8756DD23F2C /* tabbar_np_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "tabbar_np_play@2x.png"; path = "LionFMMain/Assets/tabbar_np_play@2x.png"; sourceTree = "<group>"; };
+		1B4FF3BFB1A3083F0C54A13531A30B42 /* LionFMMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionFMMain-prefix.pch"; sourceTree = "<group>"; };
+		1C5C7E7BD2D81132C2D7116D057B52D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2099186B059EB4DEAA2DFCD195B22C63 /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "tabbar_bg@2x.png"; path = "LionFMMain/Assets/tabbar_bg@2x.png"; sourceTree = "<group>"; };
+		22FF111E743EE5502286598950AE6AD1 /* Pods_LionFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LionFM.framework; path = "Pods-LionFM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		230E9D2C7735DC68B350CAA39880D9E3 /* UIView+JHExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JHExtension.m"; path = "LionFMBase/Classes/Category/UIView+JHExtension.m"; sourceTree = "<group>"; };
+		2352AA4B78698B970FCEA945306F2EAD /* LionFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionFMBase.framework; path = LionFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CA8F1459698A7D361F49A30D9E38B8 /* Pods-LionFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionFM.debug.xcconfig"; sourceTree = "<group>"; };
+		2B535D4C149DAF7C2019716F68383864 /* LionFMMain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionFMMain.framework; path = LionFMMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE5A04E7A46125B2F2C7FA1CD0380DF /* tabbar_np_playshadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "tabbar_np_playshadow@2x.png"; path = "LionFMMain/Assets/tabbar_np_playshadow@2x.png"; sourceTree = "<group>"; };
+		2D154E79B6236282F0B07FCA02CE386E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB0FF42D8451BCFB8D2DE39B939433C /* Pods-LionFM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LionFM-acknowledgements.plist"; sourceTree = "<group>"; };
+		3139E704EE283C3ED91B0DEAA8BD9BED /* tabbar_np_loop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "tabbar_np_loop@2x.png"; path = "LionFMMain/Assets/tabbar_np_loop@2x.png"; sourceTree = "<group>"; };
+		31A0194FC0D9DE9EB550110BD8D6F77F /* tabbar_np_playnon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "tabbar_np_playnon@2x.png"; path = "LionFMMain/Assets/tabbar_np_playnon@2x.png"; sourceTree = "<group>"; };
+		3249ACFE2AA798B4E4B242E01356765A /* zxy_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "zxy_icon@2x.png"; path = "LionFMMain/Assets/zxy_icon@2x.png"; sourceTree = "<group>"; };
+		3419A72940B7F314B6C0033C2B3E49E9 /* Pods-LionFM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LionFM.modulemap"; sourceTree = "<group>"; };
+		3732A7A54B6E647FAD21677FEE9C2DD6 /* JHTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHTabBar.h; path = LionFMMain/Classes/MainModule/View/JHTabBar.h; sourceTree = "<group>"; };
+		42502421ED418F6161FA5C1F01CF7FA1 /* JHNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHNavBar.m; path = LionFMMain/Classes/MainModule/View/JHNavBar.m; sourceTree = "<group>"; };
+		48225C53B61F41C7472B1A5F4EC50603 /* LionFMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionFMBase-dummy.m"; sourceTree = "<group>"; };
+		4FD72417D19906A2C31405868673CD91 /* Pods-LionFM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LionFM-umbrella.h"; sourceTree = "<group>"; };
+		56A8C21FDC038B8D129C0D5C90BEF45B /* JHNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHNavigationController.h; path = LionFMMain/Classes/MainModule/Controller/JHNavigationController.h; sourceTree = "<group>"; };
+		5FF9F808D561A41AE4A6F2F378130058 /* UIImage+JHExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+JHExtension.h"; path = "LionFMBase/Classes/Category/UIImage+JHExtension.h"; sourceTree = "<group>"; };
+		631A4C3423009A6F00C07E7F53E088D6 /* Pods-LionFM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionFM-frameworks.sh"; sourceTree = "<group>"; };
+		694DD1809437F6CB2C677495F3F33A09 /* Pods-LionFM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LionFM-dummy.m"; sourceTree = "<group>"; };
+		6B2BF97EC8AA1258686C1889B431C953 /* JHMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHMiddleView.h; path = LionFMMain/Classes/MainModule/View/JHMiddleView.h; sourceTree = "<group>"; };
+		6C819A8E9F144B91D8FB4E15A94308A1 /* JHMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHMiddleView.m; path = LionFMMain/Classes/MainModule/View/JHMiddleView.m; sourceTree = "<group>"; };
+		6DFFC15180FCB8ACC64BCAF8616A804D /* LionFMBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionFMBase.xcconfig; sourceTree = "<group>"; };
+		6E02DA597EE313B646A6D06C2CF28FD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D60DAFA4B29AD23ABF783ECD512D88A /* JHNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHNavBar.h; path = LionFMMain/Classes/MainModule/View/JHNavBar.h; sourceTree = "<group>"; };
+		7DCD20CAE21BE45A19A1B31875B7062E /* LionFMMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionFMMain-umbrella.h"; sourceTree = "<group>"; };
+		80C8B187E935B57DB2365C884699DB99 /* CALayer+JHExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+JHExtension.m"; path = "LionFMBase/Classes/Category/CALayer+JHExtension.m"; sourceTree = "<group>"; };
+		81C69572FB78413D2847E145E1D9147B /* Pods-LionFM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LionFM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83B8396113AC01ED17F2D35B0C4A8C30 /* JHTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHTabBarController.m; path = LionFMMain/Classes/MainModule/Controller/JHTabBarController.m; sourceTree = "<group>"; };
+		86C1A5B8F6E0B25C2E20B4727ADCEFC7 /* CALayer+JHExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+JHExtension.h"; path = "LionFMBase/Classes/Category/CALayer+JHExtension.h"; sourceTree = "<group>"; };
+		8D5B9145E40C649D94FE267C558616E4 /* tabbar_np_shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "tabbar_np_shadow@2x.png"; path = "LionFMMain/Assets/tabbar_np_shadow@2x.png"; sourceTree = "<group>"; };
+		8EABF305FD7C95B255901A42F3C91973 /* UIImage+JHExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JHExtension.m"; path = "LionFMBase/Classes/Category/UIImage+JHExtension.m"; sourceTree = "<group>"; };
+		9253F51103FCC36418BDD5C6993A7C27 /* ResourceBundle-LionFMMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LionFMMain-Info.plist"; sourceTree = "<group>"; };
+		9277EAE82AAEF83BFDCB057563A8F3AD /* LionFMMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionFMMain-dummy.m"; sourceTree = "<group>"; };
+		92D09EA454F2307D9007F1DA169A933E /* JHTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHTabBar.m; path = LionFMMain/Classes/MainModule/View/JHTabBar.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9688ABC0C4DF38E4D1BC053534C13088 /* JHNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHNavigationController.m; path = LionFMMain/Classes/MainModule/Controller/JHNavigationController.m; sourceTree = "<group>"; };
+		96A0DA7E62ADE3F5FE02E39289C138DF /* LionFMMain.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LionFMMain.bundle; path = LionFMMain.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C81E4470A161472A1B3C9E356A047C2 /* MainModuleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MainModuleAPI.m; path = LionFMMain/Classes/MainModule/PublicAPI/MainModuleAPI.m; sourceTree = "<group>"; };
+		9F670EA85632B99F4C1136B310A851EB /* UIView+JHExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JHExtension.h"; path = "LionFMBase/Classes/Category/UIView+JHExtension.h"; sourceTree = "<group>"; };
+		A30F00AFB7E64F8145B2BED602FC261A /* LionFMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionFMBase-umbrella.h"; sourceTree = "<group>"; };
+		A791CAE97F1B344E0660EB2CA5AAB687 /* LionFMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LionFMBase.modulemap; sourceTree = "<group>"; };
+		B2F46DEC60440DAB5F653281F583BD42 /* LionFMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionFMBase-prefix.pch"; sourceTree = "<group>"; };
+		C1FF1A33C2541DB34F10878806471EE9 /* LionFMMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LionFMMain.modulemap; sourceTree = "<group>"; };
+		D00E7248FED27C85FA4F6F1E842C0FEE /* LionFMMain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionFMMain.xcconfig; sourceTree = "<group>"; };
+		E1674861AAE0069CEFAE3815AF3A2BEA /* tabbar_np_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "tabbar_np_normal@2x.png"; path = "LionFMMain/Assets/tabbar_np_normal@2x.png"; sourceTree = "<group>"; };
+		E6E59BCB951BA6B7E96DCE0BD8202DA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F497ED6DE94EB9E0AC279E2D97A9B9D5 /* JHTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHTabBarController.h; path = LionFMMain/Classes/MainModule/Controller/JHTabBarController.h; sourceTree = "<group>"; };
+		F975874D0154A9C3855BD141EACAFAB0 /* JHMiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JHMiddleView.xib; path = LionFMMain/Classes/MainModule/View/JHMiddleView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1013470238B92E4ACD6986F5C5D2F94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F443D8537B5A5C8D1DA2F64FEFC4AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2D7120F5FDFF562B59C2AF5EA04F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6706C3069469683DD6FF9E30B68B3B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA37428467F5F4F2546E0CE7D0D8C04 /* Foundation.framework in Frameworks */,
+				8A838C1F95F4A79C1AC7986A365F43B8 /* LionFMBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2685B76A03208A88252EC26CD68DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE9AC6E52EFE33C1228016E2039FC76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426A37F99F8221DD0D2671583849AFE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBDA0072E9E3C9AC098A0B2BDA5728EF /* LionFMBase */,
+				E11F54A9D35808AFF05E36F904261622 /* LionFMMain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45FE1A97424C2F4244CC6AA2FA9BC9DB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C7E7BD2D81132C2D7116D057B52D7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4D3678C7F6468A32F64952082045AFB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2352AA4B78698B970FCEA945306F2EAD /* LionFMBase.framework */,
+				96A0DA7E62ADE3F5FE02E39289C138DF /* LionFMMain.bundle */,
+				2B535D4C149DAF7C2019716F68383864 /* LionFMMain.framework */,
+				22FF111E743EE5502286598950AE6AD1 /* Pods_LionFM.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CEA65E6C286C30B16226F406806E104 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D154E79B6236282F0B07FCA02CE386E /* Info.plist */,
+				C1FF1A33C2541DB34F10878806471EE9 /* LionFMMain.modulemap */,
+				D00E7248FED27C85FA4F6F1E842C0FEE /* LionFMMain.xcconfig */,
+				9277EAE82AAEF83BFDCB057563A8F3AD /* LionFMMain-dummy.m */,
+				1B4FF3BFB1A3083F0C54A13531A30B42 /* LionFMMain-prefix.pch */,
+				7DCD20CAE21BE45A19A1B31875B7062E /* LionFMMain-umbrella.h */,
+				9253F51103FCC36418BDD5C6993A7C27 /* ResourceBundle-LionFMMain-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LionFMMain";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C8EB1A2AEE5D562A9C6438971F3D6AC9 /* Frameworks */,
+				426A37F99F8221DD0D2671583849AFE2 /* Pods */,
+				4D3678C7F6468A32F64952082045AFB8 /* Products */,
+				C310AA447F3DEBD594C60AFEAFA77D21 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B7403B8B50EB985C64F277247297E5DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E59BCB951BA6B7E96DCE0BD8202DA2 /* Info.plist */,
+				A791CAE97F1B344E0660EB2CA5AAB687 /* LionFMBase.modulemap */,
+				6DFFC15180FCB8ACC64BCAF8616A804D /* LionFMBase.xcconfig */,
+				48225C53B61F41C7472B1A5F4EC50603 /* LionFMBase-dummy.m */,
+				B2F46DEC60440DAB5F653281F583BD42 /* LionFMBase-prefix.pch */,
+				A30F00AFB7E64F8145B2BED602FC261A /* LionFMBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LionFMBase";
+			sourceTree = "<group>";
+		};
+		C00AC886E60C9ECC52FE65C7F47EEADD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				86C1A5B8F6E0B25C2E20B4727ADCEFC7 /* CALayer+JHExtension.h */,
+				80C8B187E935B57DB2365C884699DB99 /* CALayer+JHExtension.m */,
+				5FF9F808D561A41AE4A6F2F378130058 /* UIImage+JHExtension.h */,
+				8EABF305FD7C95B255901A42F3C91973 /* UIImage+JHExtension.m */,
+				9F670EA85632B99F4C1136B310A851EB /* UIView+JHExtension.h */,
+				230E9D2C7735DC68B350CAA39880D9E3 /* UIView+JHExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		C1B2637541CADA2FE94115AF35649D6F /* Pods-LionFM */ = {
+			isa = PBXGroup;
+			children = (
+				6E02DA597EE313B646A6D06C2CF28FD2 /* Info.plist */,
+				3419A72940B7F314B6C0033C2B3E49E9 /* Pods-LionFM.modulemap */,
+				81C69572FB78413D2847E145E1D9147B /* Pods-LionFM-acknowledgements.markdown */,
+				2DB0FF42D8451BCFB8D2DE39B939433C /* Pods-LionFM-acknowledgements.plist */,
+				694DD1809437F6CB2C677495F3F33A09 /* Pods-LionFM-dummy.m */,
+				631A4C3423009A6F00C07E7F53E088D6 /* Pods-LionFM-frameworks.sh */,
+				08777BBC1692695D0D35EF930AE5B6FE /* Pods-LionFM-resources.sh */,
+				4FD72417D19906A2C31405868673CD91 /* Pods-LionFM-umbrella.h */,
+				24CA8F1459698A7D361F49A30D9E38B8 /* Pods-LionFM.debug.xcconfig */,
+				0D4495D8491FB910F74ADB015E1DA1CF /* Pods-LionFM.release.xcconfig */,
+			);
+			name = "Pods-LionFM";
+			path = "Target Support Files/Pods-LionFM";
+			sourceTree = "<group>";
+		};
+		C310AA447F3DEBD594C60AFEAFA77D21 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B2637541CADA2FE94115AF35649D6F /* Pods-LionFM */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8EB1A2AEE5D562A9C6438971F3D6AC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02BE3B0266F4E245420CBB1DF48C116C /* LionFMBase.framework */,
+				45FE1A97424C2F4244CC6AA2FA9BC9DB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBDA0072E9E3C9AC098A0B2BDA5728EF /* LionFMBase */ = {
+			isa = PBXGroup;
+			children = (
+				C00AC886E60C9ECC52FE65C7F47EEADD /* Category */,
+				B7403B8B50EB985C64F277247297E5DB /* Support Files */,
+			);
+			name = LionFMBase;
+			path = LionFMBase;
+			sourceTree = "<group>";
+		};
+		E11F54A9D35808AFF05E36F904261622 /* LionFMMain */ = {
+			isa = PBXGroup;
+			children = (
+				6B2BF97EC8AA1258686C1889B431C953 /* JHMiddleView.h */,
+				6C819A8E9F144B91D8FB4E15A94308A1 /* JHMiddleView.m */,
+				F975874D0154A9C3855BD141EACAFAB0 /* JHMiddleView.xib */,
+				7D60DAFA4B29AD23ABF783ECD512D88A /* JHNavBar.h */,
+				42502421ED418F6161FA5C1F01CF7FA1 /* JHNavBar.m */,
+				56A8C21FDC038B8D129C0D5C90BEF45B /* JHNavigationController.h */,
+				9688ABC0C4DF38E4D1BC053534C13088 /* JHNavigationController.m */,
+				3732A7A54B6E647FAD21677FEE9C2DD6 /* JHTabBar.h */,
+				92D09EA454F2307D9007F1DA169A933E /* JHTabBar.m */,
+				F497ED6DE94EB9E0AC279E2D97A9B9D5 /* JHTabBarController.h */,
+				83B8396113AC01ED17F2D35B0C4A8C30 /* JHTabBarController.m */,
+				0B82765D46D6385DDA32EFDFC90ACF98 /* MainModuleAPI.h */,
+				9C81E4470A161472A1B3C9E356A047C2 /* MainModuleAPI.m */,
+				F8DF7E0A4AE3FE14BA7514D8D619F138 /* Resources */,
+				5CEA65E6C286C30B16226F406806E104 /* Support Files */,
+			);
+			name = LionFMMain;
+			path = LionFMMain;
+			sourceTree = "<group>";
+		};
+		F8DF7E0A4AE3FE14BA7514D8D619F138 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2099186B059EB4DEAA2DFCD195B22C63 /* tabbar_bg@2x.png */,
+				3139E704EE283C3ED91B0DEAA8BD9BED /* tabbar_np_loop@2x.png */,
+				E1674861AAE0069CEFAE3815AF3A2BEA /* tabbar_np_normal@2x.png */,
+				1427E429A0D0B39448E2E8756DD23F2C /* tabbar_np_play@2x.png */,
+				31A0194FC0D9DE9EB550110BD8D6F77F /* tabbar_np_playnon@2x.png */,
+				2CE5A04E7A46125B2F2C7FA1CD0380DF /* tabbar_np_playshadow@2x.png */,
+				8D5B9145E40C649D94FE267C558616E4 /* tabbar_np_shadow@2x.png */,
+				3249ACFE2AA798B4E4B242E01356765A /* zxy_icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F9E824EE40910E1D0E39FF57E3D3A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF136C977BE0C0F5F35AABEB2E0A232 /* JHMiddleView.h in Headers */,
+				696A760E3E577572AF110DF5C47B217D /* JHNavBar.h in Headers */,
+				555C390C76DA426F9EAF377F8EC9FAC9 /* JHNavigationController.h in Headers */,
+				5DF0C0C7EC8E16C8696F1DF275FB412A /* JHTabBar.h in Headers */,
+				D7F06DF44A3841DB927C4072A6474F2C /* JHTabBarController.h in Headers */,
+				8170012BF677CEE6382477939FA152ED /* LionFMMain-umbrella.h in Headers */,
+				1D0830B6109894721ECB454E5AA35330 /* MainModuleAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56706C9EE2C768FFF564B0F2685E0DFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C7F0ABD2BEC94C043667CD52486EDE /* CALayer+JHExtension.h in Headers */,
+				A20FDA2A9597197B42DFB343534BCC85 /* LionFMBase-umbrella.h in Headers */,
+				9819398C1A5D518A423CC290E49256DA /* UIImage+JHExtension.h in Headers */,
+				EAE10445D3C22D2F296B75F971A2EDDE /* UIView+JHExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A1E070647BB66871473C72AED64050 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5748663A2CD0EDAC8B241B2293B259E7 /* Pods-LionFM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9A2E002B30A8ECB996E866517FF233D2 /* LionFMMain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F292B17C835486650713A6C31A4598C1 /* Build configuration list for PBXNativeTarget "LionFMMain" */;
+			buildPhases = (
+				CCF147790ECD04B420FC83AE8340E1C5 /* Sources */,
+				6706C3069469683DD6FF9E30B68B3B58 /* Frameworks */,
+				0729852583B90351BE54FB13A03DA6EF /* Resources */,
+				4F9E824EE40910E1D0E39FF57E3D3A87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B83686CDF5590CD83E0A5A00A23D1B2 /* PBXTargetDependency */,
+				1281BBDCC5EF822CCD71EA34460E327D /* PBXTargetDependency */,
+			);
+			name = LionFMMain;
+			productName = LionFMMain;
+			productReference = 2B535D4C149DAF7C2019716F68383864 /* LionFMMain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2F4ED750B1F7AE0126AA25983BF0054 /* LionFMMain-LionFMMain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59CADF819F170F1B998A49948CCC020 /* Build configuration list for PBXNativeTarget "LionFMMain-LionFMMain" */;
+			buildPhases = (
+				3F5D73772B253B79594D57C7E871CB74 /* Sources */,
+				5C2D7120F5FDFF562B59C2AF5EA04F91 /* Frameworks */,
+				99D5FDA5A2D57319DC6DA189FED27F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LionFMMain-LionFMMain";
+			productName = "LionFMMain-LionFMMain";
+			productReference = 96A0DA7E62ADE3F5FE02E39289C138DF /* LionFMMain.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D9752C362D6DB1B0D78326C74AF866C7 /* LionFMBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61B389B611487C5152434A568A15322 /* Build configuration list for PBXNativeTarget "LionFMBase" */;
+			buildPhases = (
+				7836DC159DE7A008089AECC291CF3066 /* Sources */,
+				1013470238B92E4ACD6986F5C5D2F94D /* Frameworks */,
+				56706C9EE2C768FFF564B0F2685E0DFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionFMBase;
+			productName = LionFMBase;
+			productReference = 2352AA4B78698B970FCEA945306F2EAD /* LionFMBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2E16E42BD6339F1F2A1B1AA14E20265 /* Pods-LionFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8FFA85709D0F26FB912B54D45942AED /* Build configuration list for PBXNativeTarget "Pods-LionFM" */;
+			buildPhases = (
+				AD114DC380B5DDB09F3D0E42998A98A3 /* Sources */,
+				BA2685B76A03208A88252EC26CD68DE8 /* Frameworks */,
+				B4A1E070647BB66871473C72AED64050 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCB2444DE262B2E194E6353C3F29648 /* PBXTargetDependency */,
+				EA359CCCB1D8899D4AE769D48AEFC3AC /* PBXTargetDependency */,
+			);
+			name = "Pods-LionFM";
+			productName = "Pods-LionFM";
+			productReference = 22FF111E743EE5502286598950AE6AD1 /* Pods_LionFM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4D3678C7F6468A32F64952082045AFB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9752C362D6DB1B0D78326C74AF866C7 /* LionFMBase */,
+				9A2E002B30A8ECB996E866517FF233D2 /* LionFMMain */,
+				A2F4ED750B1F7AE0126AA25983BF0054 /* LionFMMain-LionFMMain */,
+				E2E16E42BD6339F1F2A1B1AA14E20265 /* Pods-LionFM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0729852583B90351BE54FB13A03DA6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A182C152A4DDC7A54D3E3D49FF2A250F /* LionFMMain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D5FDA5A2D57319DC6DA189FED27F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521456A5E70359E4AFE382B284338270 /* tabbar_bg@2x.png in Resources */,
+				0D7F3EF5AC83B724B9B6BFE75F98D51C /* tabbar_np_loop@2x.png in Resources */,
+				2166C48FCE0E998CF6AF531930C1A18E /* tabbar_np_normal@2x.png in Resources */,
+				2FE94A7BDC4B6BEC5A2B4430DACBDB8A /* tabbar_np_play@2x.png in Resources */,
+				24C743EE37752F4E9B08D3DE2BAC96AB /* tabbar_np_playnon@2x.png in Resources */,
+				A5BC0576BD77D6C4390E6F16E661CCB2 /* tabbar_np_playshadow@2x.png in Resources */,
+				24B454F3FA32C3126A68801031C5785E /* tabbar_np_shadow@2x.png in Resources */,
+				E3A6431F7D99B141ED35EF5FB696F57A /* zxy_icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F5D73772B253B79594D57C7E871CB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7836DC159DE7A008089AECC291CF3066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78291A494E7D96F6C493104CF565300E /* CALayer+JHExtension.m in Sources */,
+				F306BD2E7DEB22109CFC2D5C41803C4E /* LionFMBase-dummy.m in Sources */,
+				BB1F02B2958E48AA37FF6E8454C31630 /* UIImage+JHExtension.m in Sources */,
+				98A9FA6A15F7E5C49FDE818F281286AF /* UIView+JHExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD114DC380B5DDB09F3D0E42998A98A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5ED26EEB0BF79B07379D89B262B8C0 /* Pods-LionFM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF147790ECD04B420FC83AE8340E1C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C32AAEAAB78BCCA35F8775FE51D6F3 /* JHMiddleView.m in Sources */,
+				C3229C8282E8B638B2243BAF2599CB8C /* JHMiddleView.xib in Sources */,
+				C43D43A22360ADC0D6DBE703A2595841 /* JHNavBar.m in Sources */,
+				FBDFBF8AA1C58340D705B3C72C278190 /* JHNavigationController.m in Sources */,
+				BDE1CC99F5F882CC6FC5AF128BAB0B05 /* JHTabBar.m in Sources */,
+				48D76DC6FDBB82552247BC3042D61104 /* JHTabBarController.m in Sources */,
+				299B958C59336AEDD52DBD6BBC74C080 /* LionFMMain-dummy.m in Sources */,
+				4BCCC4835948546749A8F9F43A236770 /* MainModuleAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1281BBDCC5EF822CCD71EA34460E327D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LionFMMain-LionFMMain";
+			target = A2F4ED750B1F7AE0126AA25983BF0054 /* LionFMMain-LionFMMain */;
+			targetProxy = 3268CCB01D55DDCAD3898E5CD49E1B1B /* PBXContainerItemProxy */;
+		};
+		3DCB2444DE262B2E194E6353C3F29648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LionFMBase;
+			target = D9752C362D6DB1B0D78326C74AF866C7 /* LionFMBase */;
+			targetProxy = 0D9040E475F5460C767403913DB6E2BF /* PBXContainerItemProxy */;
+		};
+		9B83686CDF5590CD83E0A5A00A23D1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LionFMBase;
+			target = D9752C362D6DB1B0D78326C74AF866C7 /* LionFMBase */;
+			targetProxy = 65657D9FF05DC3B06B5A34E8B6C867A3 /* PBXContainerItemProxy */;
+		};
+		EA359CCCB1D8899D4AE769D48AEFC3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LionFMMain;
+			target = 9A2E002B30A8ECB996E866517FF233D2 /* LionFMMain */;
+			targetProxy = D2C9ED8A2DBD24B78E5E0152B8935878 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0B4FE5A1DDEF343C5A125AA6987A1646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00E7248FED27C85FA4F6F1E842C0FEE /* LionFMMain.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LionFMMain/LionFMMain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionFMMain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionFMMain/LionFMMain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LionFMMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D8019DB88C3D5436013D9F01AC14334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00E7248FED27C85FA4F6F1E842C0FEE /* LionFMMain.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LionFMMain";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/LionFMMain/ResourceBundle-LionFMMain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LionFMMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5B0CE2994CCE66183C8C60B85709BE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CA8F1459698A7D361F49A30D9E38B8 /* Pods-LionFM.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LionFM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LionFM/Pods-LionFM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LionFM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CCEB1A3B3C3AAEECC7F0EE0F01A2F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFFC15180FCB8ACC64BCAF8616A804D /* LionFMBase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LionFMBase/LionFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionFMBase/LionFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LionFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9227B515FAFC73CCD87D61B56A47C379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00E7248FED27C85FA4F6F1E842C0FEE /* LionFMMain.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LionFMMain";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/LionFMMain/ResourceBundle-LionFMMain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LionFMMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B21BF0C99B0C13EFB4F9DF1F7B73DA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4495D8491FB910F74ADB015E1DA1CF /* Pods-LionFM.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LionFM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LionFM/Pods-LionFM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LionFM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C784A9C22F9FD86D624247EC648AD085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00E7248FED27C85FA4F6F1E842C0FEE /* LionFMMain.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LionFMMain/LionFMMain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionFMMain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionFMMain/LionFMMain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LionFMMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3D4E85BE0F2945959D7CFA182E03C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFFC15180FCB8ACC64BCAF8616A804D /* LionFMBase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LionFMBase/LionFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionFMBase/LionFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LionFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59CADF819F170F1B998A49948CCC020 /* Build configuration list for PBXNativeTarget "LionFMMain-LionFMMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8019DB88C3D5436013D9F01AC14334 /* Debug */,
+				9227B515FAFC73CCD87D61B56A47C379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FFA85709D0F26FB912B54D45942AED /* Build configuration list for PBXNativeTarget "Pods-LionFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0CE2994CCE66183C8C60B85709BE60 /* Debug */,
+				B21BF0C99B0C13EFB4F9DF1F7B73DA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F292B17C835486650713A6C31A4598C1 /* Build configuration list for PBXNativeTarget "LionFMMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B4FE5A1DDEF343C5A125AA6987A1646 /* Debug */,
+				C784A9C22F9FD86D624247EC648AD085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61B389B611487C5152434A568A15322 /* Build configuration list for PBXNativeTarget "LionFMBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4E85BE0F2945959D7CFA182E03C18 /* Debug */,
+				8CCEB1A3B3C3AAEECC7F0EE0F01A2F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

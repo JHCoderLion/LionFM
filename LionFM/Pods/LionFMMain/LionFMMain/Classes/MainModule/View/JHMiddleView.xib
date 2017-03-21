@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JHMiddleView">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LionFMMain.bundle/tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="SOL-mk-wEV">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="F5n-cZ-2ac"/>
+                        <constraint firstAttribute="height" constant="65" id="rzd-J3-Z3D"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LionFMMain.bundle/tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="Zox-gr-sm2">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="jcD-bj-bTc"/>
+                        <constraint firstAttribute="height" constant="65" id="sjD-Kf-rAf"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LionFMMain.bundle/tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="9h3-pK-v5c">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="K8R-ka-wGA"/>
+                        <constraint firstAttribute="height" constant="65" id="jA4-xy-GFY"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LionFMMain.bundle/zxy_icon" translatesAutoresizingMaskIntoConstraints="NO" id="C9C-tW-XMb">
+                    <rect key="frame" x="11" y="11" width="43" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="7ej-W4-xUK"/>
+                        <constraint firstAttribute="width" constant="43" id="u7l-iS-Jlf"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bkw-Ul-dvq" userLabel="play Btn">
+                    <rect key="frame" x="10" y="10" width="45" height="45"/>
+                    <state key="normal" image="LionFMMain.bundle/tabbar_np_play"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Bkw-Ul-dvq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="3hK-01-qI6"/>
+                <constraint firstItem="Zox-gr-sm2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4wI-Vr-pQt"/>
+                <constraint firstItem="SOL-mk-wEV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="56W-O7-I1x"/>
+                <constraint firstItem="C9C-tW-XMb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="11" id="6wG-PI-MuY"/>
+                <constraint firstAttribute="bottom" secondItem="Zox-gr-sm2" secondAttribute="bottom" id="B1f-fD-upV"/>
+                <constraint firstItem="C9C-tW-XMb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="L4d-46-qu4"/>
+                <constraint firstItem="SOL-mk-wEV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MOq-7P-5O9"/>
+                <constraint firstAttribute="bottom" secondItem="Bkw-Ul-dvq" secondAttribute="bottom" constant="10" id="QV4-d6-hac"/>
+                <constraint firstAttribute="trailing" secondItem="SOL-mk-wEV" secondAttribute="trailing" id="Slk-pY-mbZ"/>
+                <constraint firstItem="9h3-pK-v5c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YHN-Ij-Fgf"/>
+                <constraint firstAttribute="trailing" secondItem="9h3-pK-v5c" secondAttribute="trailing" id="dwK-oc-gp0"/>
+                <constraint firstAttribute="trailing" secondItem="C9C-tW-XMb" secondAttribute="trailing" constant="11" id="i1f-pr-1cO"/>
+                <constraint firstAttribute="trailing" secondItem="Zox-gr-sm2" secondAttribute="trailing" id="mK6-Tn-qS1"/>
+                <constraint firstAttribute="trailing" secondItem="Bkw-Ul-dvq" secondAttribute="trailing" constant="10" id="oyv-LE-mD9"/>
+                <constraint firstItem="Zox-gr-sm2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="q0Q-BF-dUf"/>
+                <constraint firstItem="Bkw-Ul-dvq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="r4x-uj-X0O"/>
+                <constraint firstItem="9h3-pK-v5c" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="s4O-sb-fVQ"/>
+                <constraint firstAttribute="bottom" secondItem="9h3-pK-v5c" secondAttribute="bottom" id="yDf-2d-UTi"/>
+                <constraint firstAttribute="bottom" secondItem="C9C-tW-XMb" secondAttribute="bottom" constant="11" id="yUj-ja-WaE"/>
+                <constraint firstAttribute="bottom" secondItem="SOL-mk-wEV" secondAttribute="bottom" id="yWY-V5-2H8"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="middleImageView" destination="C9C-tW-XMb" id="lw4-VS-CgO"/>
+                <outlet property="playBtn" destination="Bkw-Ul-dvq" id="ZJw-j4-48Z"/>
+            </connections>
+            <point key="canvasLocation" x="-1.5" y="-358"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LionFMMain.bundle/tabbar_np_normal" width="75" height="65"/>
+        <image name="LionFMMain.bundle/tabbar_np_play" width="75" height="65"/>
+        <image name="LionFMMain.bundle/tabbar_np_playshadow" width="75" height="65"/>
+        <image name="LionFMMain.bundle/tabbar_np_shadow" width="75" height="65"/>
+        <image name="LionFMMain.bundle/zxy_icon" width="75" height="65"/>
+    </resources>
+</document>

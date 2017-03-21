@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+//#import "JHTabBarController.h"
+//#import "JHTabBar.h"
+#import "MainModuleAPI.h"
+#import "testVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,49 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+//    JHTabBarController *rootVC = [JHTabBarController tabBarControllerWithAddChildVCsBlock:^(JHTabBarController *tabBarC) {
+//       
+//        [tabBarC addChildVC:[testVC new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];
+//        [tabBarC addChildVC:[UIViewController new] normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_h" isRequiredNavController:YES];
+//        [tabBarC addChildVC:[UIViewController new] normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
+//        [tabBarC addChildVC:[UIViewController new] normalImageName:@"tabbar_me_n" selectedImageName:@"tabbar_me_h" isRequiredNavController:YES];
+//        
+//    }];
+//    
+//    JHTabBar *tabbar = (JHTabBar *)rootVC.tabBar;
+//    tabbar.middleClickBlock = ^(BOOL isPlaying) {
+//        if (isPlaying) {
+//            NSLog(@"播放");
+//        }else {
+//            NSLog(@"暂停");
+//        }
+//    };
+    
+    
+    UITabBarController *rootVC = [MainModuleAPI rootTabBarCcontroller];
+    
+    //添加控制器
+    [MainModuleAPI addChildVC:[testVC new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];
+    [MainModuleAPI addChildVC:[UIViewController new]  normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_h" isRequiredNavController:YES];
+    [MainModuleAPI addChildVC:[UIViewController new]  normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
+    [MainModuleAPI addChildVC:[UIViewController new]  normalImageName:@"tabbar_me_n" selectedImageName:@"tabbar_me_h" isRequiredNavController:YES];
+    
+    
+    [MainModuleAPI setTabbarMiddleBtnClick:^(BOOL isPlaying) {
+        if (isPlaying) {
+            NSLog(@"播放");
+        }else {
+            NSLog(@"暂停");
+        }
+        
+    }];
+    
+    self.window.rootViewController = rootVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

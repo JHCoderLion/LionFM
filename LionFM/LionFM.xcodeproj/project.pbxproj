@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A06AB8EB4D9534063F5AACE /* Pods_LionFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3968FCF961F347802B7FEAF9 /* Pods_LionFM.framework */; };
 		FA4421771E77C73B00C97A07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4421761E77C73B00C97A07 /* main.m */; };
 		FA44217A1E77C73B00C97A07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4421791E77C73B00C97A07 /* AppDelegate.m */; };
 		FA44217D1E77C73B00C97A07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA44217C1E77C73B00C97A07 /* ViewController.m */; };
 		FA4421801E77C73B00C97A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA44217E1E77C73B00C97A07 /* Main.storyboard */; };
 		FA4421821E77C73B00C97A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4421811E77C73B00C97A07 /* Assets.xcassets */; };
 		FA4421851E77C73B00C97A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4421831E77C73B00C97A07 /* LaunchScreen.storyboard */; };
+		FA4421B01E77E35300C97A07 /* testVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4421AF1E77E35300C97A07 /* testVC.m */; };
+		FA4421B31E77F40000C97A07 /* test1.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4421B21E77F40000C97A07 /* test1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C6EE43AD99E8F9ABC53CBF2 /* Pods-LionFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LionFM/Pods-LionFM.debug.xcconfig"; sourceTree = "<group>"; };
+		3968FCF961F347802B7FEAF9 /* Pods_LionFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4421721E77C73B00C97A07 /* LionFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA4421761E77C73B00C97A07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA4421781E77C73B00C97A07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FA4421791E77C73B00C97A07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA44217B1E77C73B00C97A07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA44217C1E77C73B00C97A07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA4421761E77C73B00C97A07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../../main.m; sourceTree = "<group>"; };
+		FA4421781E77C73B00C97A07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../AppDelegate.h; sourceTree = "<group>"; };
+		FA4421791E77C73B00C97A07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../AppDelegate.m; sourceTree = "<group>"; };
+		FA44217B1E77C73B00C97A07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../ViewController.h; sourceTree = "<group>"; };
+		FA44217C1E77C73B00C97A07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../ViewController.m; sourceTree = "<group>"; };
 		FA44217F1E77C73B00C97A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA4421811E77C73B00C97A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4421841E77C73B00C97A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FA4421861E77C73B00C97A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4421861E77C73B00C97A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Info.plist; sourceTree = "<group>"; };
+		FA4421AE1E77E35300C97A07 /* testVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testVC.h; sourceTree = "<group>"; };
+		FA4421AF1E77E35300C97A07 /* testVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testVC.m; sourceTree = "<group>"; };
+		FA4421B11E77F40000C97A07 /* test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
+		FA4421B21E77F40000C97A07 /* test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test1.m; sourceTree = "<group>"; };
+		FB3A29C82E7CD259A05543FE /* Pods-LionFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-LionFM/Pods-LionFM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A06AB8EB4D9534063F5AACE /* Pods_LionFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50654098FB1BED8A93341036 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EE43AD99E8F9ABC53CBF2 /* Pods-LionFM.debug.xcconfig */,
+				FB3A29C82E7CD259A05543FE /* Pods-LionFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6093680EC388F7BDE46DB7DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3968FCF961F347802B7FEAF9 /* Pods_LionFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA4421691E77C73B00C97A07 = {
 			isa = PBXGroup;
 			children = (
 				FA4421741E77C73B00C97A07 /* LionFM */,
 				FA4421731E77C73B00C97A07 /* Products */,
+				50654098FB1BED8A93341036 /* Pods */,
+				6093680EC388F7BDE46DB7DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +88,7 @@
 		FA4421741E77C73B00C97A07 /* LionFM */ = {
 			isa = PBXGroup;
 			children = (
-				FA4421781E77C73B00C97A07 /* AppDelegate.h */,
-				FA4421791E77C73B00C97A07 /* AppDelegate.m */,
-				FA44217B1E77C73B00C97A07 /* ViewController.h */,
-				FA44217C1E77C73B00C97A07 /* ViewController.m */,
-				FA44217E1E77C73B00C97A07 /* Main.storyboard */,
-				FA4421811E77C73B00C97A07 /* Assets.xcassets */,
-				FA4421831E77C73B00C97A07 /* LaunchScreen.storyboard */,
-				FA4421861E77C73B00C97A07 /* Info.plist */,
+				FA44218C1E77CF8F00C97A07 /* Classes */,
 				FA4421751E77C73B00C97A07 /* Supporting Files */,
 			);
 			path = LionFM;
@@ -74,9 +97,44 @@
 		FA4421751E77C73B00C97A07 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA4421761E77C73B00C97A07 /* main.m */,
+				FA44217E1E77C73B00C97A07 /* Main.storyboard */,
+				FA4421811E77C73B00C97A07 /* Assets.xcassets */,
+				FA4421831E77C73B00C97A07 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA44218C1E77CF8F00C97A07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA4421901E77CF8F00C97A07 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FA4421901E77CF8F00C97A07 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FA4421921E77CF8F00C97A07 /* System */,
+				FA4421AE1E77E35300C97A07 /* testVC.h */,
+				FA4421AF1E77E35300C97A07 /* testVC.m */,
+				FA4421B11E77F40000C97A07 /* test1.h */,
+				FA4421B21E77F40000C97A07 /* test1.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FA4421921E77CF8F00C97A07 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				FA44217B1E77C73B00C97A07 /* ViewController.h */,
+				FA44217C1E77C73B00C97A07 /* ViewController.m */,
+				FA4421781E77C73B00C97A07 /* AppDelegate.h */,
+				FA4421791E77C73B00C97A07 /* AppDelegate.m */,
+				FA4421861E77C73B00C97A07 /* Info.plist */,
+				FA4421761E77C73B00C97A07 /* main.m */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA4421891E77C73B00C97A07 /* Build configuration list for PBXNativeTarget "LionFM" */;
 			buildPhases = (
+				E4E8933AC758BEACB1EC15CE /* [CP] Check Pods Manifest.lock */,
 				FA44216E1E77C73B00C97A07 /* Sources */,
 				FA44216F1E77C73B00C97A07 /* Frameworks */,
 				FA4421701E77C73B00C97A07 /* Resources */,
+				8A8B98071CA83A6E0D904984 /* [CP] Embed Pods Frameworks */,
+				55AE2415C943D9CF28C89201 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +166,7 @@
 		FA44216A1E77C73B00C97A07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JH;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "会跳舞的狮子";
 				TargetAttributes = {
@@ -146,6 +208,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55AE2415C943D9CF28C89201 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LionFM/Pods-LionFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8B98071CA83A6E0D904984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LionFM/Pods-LionFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E8933AC758BEACB1EC15CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA44216E1E77C73B00C97A07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -153,7 +263,9 @@
 			files = (
 				FA44217D1E77C73B00C97A07 /* ViewController.m in Sources */,
 				FA44217A1E77C73B00C97A07 /* AppDelegate.m in Sources */,
+				FA4421B31E77F40000C97A07 /* test1.m in Sources */,
 				FA4421771E77C73B00C97A07 /* main.m in Sources */,
+				FA4421B01E77E35300C97A07 /* testVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +381,10 @@
 		};
 		FA44218A1E77C73B00C97A07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6EE43AD99E8F9ABC53CBF2 /* Pods-LionFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5637TSJCF4;
 				INFOPLIST_FILE = LionFM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -281,8 +395,10 @@
 		};
 		FA44218B1E77C73B00C97A07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3A29C82E7CD259A05543FE /* Pods-LionFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5637TSJCF4;
 				INFOPLIST_FILE = LionFM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -310,6 +426,7 @@
 				FA44218B1E77C73B00C97A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
