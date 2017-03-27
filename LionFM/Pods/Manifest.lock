@@ -1,6 +1,6 @@
 PODS:
   - LionFMBase/Category (0.4.0)
-  - LionFMMain (0.1.2):
+  - LionFMMain (0.1.3):
     - LionFMBase/Category
 
 DEPENDENCIES:
@@ -8,7 +8,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   LionFMBase: e6e8b0fa524e203cf6ab44e3deba0b19b0e31679
-  LionFMMain: c8e35ff8c379cc59b70e1ad05bb23268726da839
+  LionFMMain: 902f96c878dc19748585f32135e317fea6c13e5c
 
 PODFILE CHECKSUM: 6349101240e00274637ad96d702de69c2093d512
 
